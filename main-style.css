@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+body{ color: #666;
+background-color:#fff}
+h1,h2,h3,h4,h5{color:#263A5A}
+.navbar ul .dropdown-item:hover
+{
+    background:#CEE003
+}
+footer{ padding: 50px 0;}
+.footer-menu a{ display: block; color: #333; padding: 5px } 
+.footer-menu a:hover{color: #CEE003; text-decoration: none}
+#carouselExampleIndicators1 .carousel-caption{ width: 40%;
+text-align: left; top: 20% ; left: 20%}
+
+#carouselExampleIndicators1 .carousel-caption .hcn
+{
+    width: 60%; height: 90%; border: 5px solid #CEE003;
+    position: absolute; top: -10%; left: -10px;
+    z-index: 1
+}
+#carouselExampleIndicators1 img
+{ filter: brightness(50%)}
+@media (max-width:992px){
+    #carouselExampleIndicators1 .carousel-caption{ width: 80%;
+text-align: left; top: 20% ; left: 10%}
+    #carouselExampleIndicators1 .carousel-caption .hcn
+{
+    width: 60%; height: 90%; border: 5px solid #CEE003;
+    position: absolute; top: -10%; left: -10px;
+    z-index: 1
+}
+}
+@media (max-width:600px){
+      #carouselExampleIndicators1 .carousel-caption{ width: 90%;
+text-align: left; top: 20% ; left: 10%}
+}
+#vung2{
+    background: url("../images/bg-caro.png")
+}
+.tieude10{ position: absolute; left: -20%; top: 8%;}
+@media (max-width:600px){
+	.tieude10{position: absolute; left: 20%; top: 8%;	
+	}
+	#gthieu .btn{margin-bottom: 50px}
+}
+.tieude10 .ovuong{width: 120px; height: 120px; border: 2px solid #CEE003;    position: absolute; left: -10%; top: 15px; z-index: 3}
+.ovuong .text{width: 200%;
+    position: absolute; left: 42%; top: -3px}
+.img-kinhnghiem{position: relative}
+.bg-caro { width:300px; height: 200px; position: absolute; left: -45%;top:14%;z-index: -1;opacity: .5 }
+
+.ovuong{ width: 25px; height: 25px; border: 2px solid #CEE003;
+    position: absolute; left: 41%; top: -3px}
+.ovuong-xanh{width: 50px; height: 50px;background-color:#CEE003;bottom: 250px; left:10px;}
+
+
+@media (min-width:768px){
+	#vung2 .card {margin:10px 0}	
+}
+#vung3 .card {height: 100%}
+#vung3 .ovuong{ width: 25px; height: 25px; border: 2px solid #CEE003;
+    position: absolute; left: 45%; top: -3px}
+#vung4
+.hcn-xanh{width: 127px; height: 33px;background-color:#CEE003;bottom: 20px; right:10px;text-align: center; color: #fff}
+	
+.hcn-trang{width: 127px; height: 33px;background-color:#fff;bottom: 70px; left:-50px; text-align: center;margin: auto;transform: rotate(-90deg)}
+.card {height: 100%}
+
+#vung5{
+    background: url("../images/bg-caro.png")
+}
+#vung5 
+.card-body{border-left:solid 4px #CEE003;height: 250px }
+@media (max-width:600px){
+	#vung5 	
+.card-body {height: 400px}
+}
+
+#vung6
+.hcn-xanh{width: 127px; height: 33px;background-color:#CEE003;bottom: 250px; left:0;text-align: center; color: #fff}
+#vung6 .card{height: 460px; position: relative}
+#vung6 .btn{position: absolute;bottom: 10px}
+
+#vung7{
+	background: url("../images/bg-caro.png");}
+#vung8{
+	background: url("../images/bg-caro.png");}
+
+
+@media (max-width:568px)
+{
+	#vung8 {color:#263A5A}
+	#vung8 img{opacity: 0}
+	#vung8 .form {display: flex}	
+		
+	}
+	
+
+#chuyengia
+.caption-chuyengia{top:30%; width: 100%; text-align: center}
+
+#danhgia
+.caption-danhgia{top:30%; width: 50%; text-align: left;margin-left: 25%}
+
+#chitietduan
+.caption-chitiet{top:30%; width: 50%; text-align: left;margin-left: 25%}
+
+#chitiet{background-image:url("../images/bg-caro.png")}
+.btn{width:40%; margin-left: 0; color: #fff;
+  background-color:#CEE003;
+}
+#chitiet .btn-chitiet:hover{
+  color: #263A5A;}
+
+.item-dm{overflow: hidden}
+.item-detail-hover{
+	background: #CEE003;opacity: .4;
+	width: 237px;
+  	height: 270px;
+	padding: 0;
+	position: absolute;left: 20px;top:20px;
+	transform: translate(0,500px) scale(1);
+	transition: all .7s;
+}
+.item-dm:hover>.item-detail-hover{transform: translate(0) scale(1)}
+
+
+#vung3 .item-dm1{overflow: hidden}
+#vung3 .item-detail-hover1{
+	background: #CEE003;opacity: .4;
+	width: 346px;
+  	height: 453px;
+	padding: 0;
+	position: absolute;left: 17px;top:17px;
+	transform: translate(0,500px) scale(1);
+	transition: all .7s;
+}
+#vung3 .item-dm1:hover>.item-detail-hover1{ transform: translate(0) scale(1)}
+
+#vung10 .item-dm{overflow: hidden}
+#vung10 .item-detail-hover{
+	background: #CEE003;opacity: .4;
+	width: 238px;
+  	height: 310px;
+	padding: 0;
+	position: absolute;left: 19px;top:20px;
+	transform: translate(0,500px) scale(1);
+	
+	transition: all .7s;
+
+}
+#vung10 .item-dm:hover>.item-detail-hover{ transform: translate(0) scale(1)}
+
+@media (max-width: 1000px)
+{
+	#chitiet .item-detail-hover{display: none}
+	#vung3 .item-detail-hover{display: none}
+	#vung10 .item-detail-hover{display: none}
+}
