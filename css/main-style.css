@@ -106,7 +106,7 @@ text-align: left; top: 20% ; left: 10%}
 #chitietduan
 .caption-chitiet{top:30%; width: 50%; text-align: left;margin-left: 25%}
 
-#chitiet{background-image:url("../images/bg-caro.png")}
+#chitiet{background-image:url("../images/bg-caro.png" ;opacity: 80%)}
 .btn{width:40%; margin-left: 0; color: #fff;
   background-color:#CEE003;
 }
